@@ -1,0 +1,118 @@
+.card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3e0fa;
+    margin-top: 2vh;
+    border: 3px dotted rgb(235, 234, 227);
+    border-radius: 4px;
+}
+
+.card_container>img {
+    height: 28vh;
+    width: 12vw;
+    padding: 2vh;
+    background-color: #c8c80c;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.card_container>div {
+    width: 50vw;
+    margin-left: 3vw;
+}
+
+/* .container 1   GOLD   ------------------- */
+.container1 {
+    background: #fffc00;
+    background: -webkit-linear-gradient(to bottom, #ffffff, #e2e2b3);
+    background: linear-gradient(to bottom, #ffffff, #e2e2b3);
+}
+
+.container1>img {
+    background-color: rgb(231, 204, 47);
+}
+
+/* .container 2   BLUE     ------------------- */
+.container2 {
+    background: rgb(242, 248, 255);
+    background: linear-gradient(180deg, rgba(242, 248, 255, 1) 14%, rgba(226, 236, 244, 1) 85%, rgba(190, 232, 251, 1) 100%);
+}
+
+.container2>img {
+    background-color: #136de2;
+}
+
+/* .container 3   RED     ------------------- */
+.container3 {
+    background: rgb(247, 243, 240);
+    background: linear-gradient(180deg, rgba(247, 243, 240, 1) 14%, rgba(244, 228, 220, 1) 85%, rgba(251, 212, 190, 1) 100%);
+}
+
+.container3>img {
+    background-color: red;
+}
+
+/* .container 4   GREEN     ------------------- */
+.container4 {
+    background: rgb(247, 255, 242);
+    background: linear-gradient(180deg, rgba(247, 255, 242, 1) 14%, rgba(231, 244, 226, 1) 85%, rgba(211, 251, 190, 1) 100%);
+}
+
+.container4>img {
+    background-color: rgb(38, 177, 38);
+}
+
+
+/* button conatainer ------------------- */
+.button_container {
+    margin-top: 6vh;
+    margin-bottom: 1vh;
+}
+
+.button_container>button {
+    margin-top: 2vh;
+    margin-right: 2vw;
+    padding: 0.7vh;
+    padding-left: 1.3vh;
+    padding-right: 1.3vh;
+    font-size: 1.7vh;
+}
+
+/* button ------------------------ */
+.btn-one {
+    background-color: rgb(74 90 251);
+    color: white;
+    border: 1px solid rgb(112, 107, 107);
+    border-radius: 4px;
+}
+
+.btn-one:hover {
+    background-color: rgb(29, 39, 147);
+    color: rgb(230, 225, 225);
+    transition: 0.7s;
+}
+
+.btn-two {
+    font-weight: 500;
+    padding: 0.7vh;
+    padding-left: 1.3vh;
+    padding-right: 1.3vh;
+    font-size: 1.7vh;
+    background-color: #d2680c;
+    color: white;
+    border: 1px solid rgb(112, 107, 107);
+    border-radius: 4px;
+}
+
+.btn-two:hover {
+    background-color: #d9d90c;
+    color: rgb(0, 0, 0);
+    border: #d9d90c;
+    transition: 0.7s;
+}
+
+.card_container > .bi {
+    color: rgb(179, 12, 201);
+    padding-right: 1vw;
+}

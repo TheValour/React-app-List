@@ -1,0 +1,50 @@
+.nav {
+    font-family: 'Aboreto', cursive;
+    display: flex;
+    background-color: #F55A5A;
+    margin: 0;
+    padding: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputData>input {
+    padding: 1.2vh;
+    border-radius: 4px;
+    border: .71px solid black;
+    margin-right: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputData {
+    background-color: rgb(200, 163, 235);
+    padding: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* sticky --------- */
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 56.1vw;
+    border-radius: 1vh;
+  }
+
+/* Button ---------------- */
+.inputData>button {
+    padding: 1.2vh;
+    background-color: #4bb74b;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.inputData > button:hover{
+    background-color: #409840;
+    transition: 0.7s;
+}
+#inputNumber{
+    width: 5vw;
+}

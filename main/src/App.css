@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  /* background-color: aliceblue; */
+}
+
+.App{
+  width: 60vw;
+  border-radius: 0px;
+  margin: auto;
+  background: #b0bed8;  
+
+}
+
+
